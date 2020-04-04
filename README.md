@@ -10,3 +10,6 @@ A social network is modelled as a graph of nodes representing individuals, and a
 * For nodes that have no direct or mutual connection, if required, a very slight force is applied to prevent the graph from 'spreading out' too far.
 
 The radius of each the circle representing each node is relative to the number of connections it has. The simulation starts at 'high temperature' (particles are given a lot kinetic energy) and is gradually 'cooled' (the velocities decreased by a factor for every frame of simulation) until the graph becomes stationary.
+
+## Running the code
+This program uses the Pygame library (https://github.com/pygame/pygame).
